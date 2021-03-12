@@ -53,8 +53,7 @@ TransitionBuilder BotToastInit() {
 }
 
 // ignore: non_constant_identifier_names
-Widget BotToastInitBuilder({@required Widget child}) {
-
+Widget BotToastInitBuilder({required Widget child}) {
   BotToastWidgetsBindingObserver._singleton;
   return BotToastManager(key: _key, child: child);
 }
